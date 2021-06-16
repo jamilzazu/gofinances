@@ -13,7 +13,7 @@ function HighlightCard() {
   return (
     <Container>
       <Header>
-        <Title>Entrada</Title>
+        <Title>Entradas</Title>
         <Icon name="arrow-up-circle" />
       </Header>
       <Footer>

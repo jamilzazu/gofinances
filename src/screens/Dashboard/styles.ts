@@ -86,3 +86,5 @@ export const Title = styled.Text`
   font-size: ${RFValue(18)}px;
   margin-bottom: 16px;
 `;
+
+export const TransactionList = styled.FlatList``;

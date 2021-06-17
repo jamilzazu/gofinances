@@ -16,18 +16,18 @@ interface Category {
   icon: string;
 }
 
-interface Data {
+export interface TransactionCardProps {
   type: 'positive' | 'negative';
   title: string;
   amount: string;
   category: Category;
   date: string;
 }
-interface TransactionCardProps {
-  data: Data;
+interface DataCardProps {
+  data: TransactionCardProps;
 }
 
-export function TransactionCard({ data }: TransactionCardProps) {
+export function TransactionCard({ data }: DataCardProps) {
   return (
     <Container>
       <Title>{data.title}</Title>

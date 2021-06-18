@@ -1,9 +1,9 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 import { Feather } from '@expo/vector-icons';
 import styled from 'styled-components/native';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-
 import theme from '../../global/styles/theme';
+
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 interface CategoryProps {
   isActive: boolean;
